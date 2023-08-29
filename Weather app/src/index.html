@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+      body{
+      background-image: url(src/clouds.jpg);
+      background-position: center;
+      height: 80vh;
+      background-repeat: no-repeat;
+      background-size: cover; 
+    
+    }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script
+      src="https://kit.fontawesome.com/636087d70d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  
+  <body>
+
+      
+    <div class="container">
+      <div class="weather-info">
+        <div>
+           <form class="float-right">
+              <div class="clear-fix">
+                <input class="format" type="text" placeholder="Search city..." autocomplete="off" required />
+                <input class="search" type="submit" value="🔍" />
+              </div>
+            </form>
+          </div>
+
+          <div class="row">
+            <div class="col city">
+              <h1>Pretoria</h1> 
+              <span class="maintemp">23&deg;C | &deg;F 
+                  <i class="fa-solid fa-cloud-sun icon"></i>
+
+             </span>
+              
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <ul class="today">
+                <li>Monday, July 23</li>
+                <li>10:00am</li>
+                <li>Partly Cloudy</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <ul class="meteorology">
+                <li>Precipitation 9%</li>
+                <li>Humidity 89%</li>
+                <li>Wind 12km/h</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3>Next 5 Day Forecast</h3>
+          <br />
+
+          <div class="card">
+            <div class="row">
+              <div class="col-sm-2">
+                <div class="day">Sat</div>
+                <div><i class="fa-solid fa-cloud first-icon"></i></div>
+                <div class="temp">18&deg;C</div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="day">Sun</div>
+                <div><i class="fa-regular fa-sun sec-icon"></i></div>
+                <div class="temp">22°C</div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="day">Mon</div>
+                <div><i class="fa-solid fa-cloud-sun-rain third-icon"></i></div>
+                <div class="temp">25°C</div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="day">Tue</div>
+                <div><i class="fa-solid fa-cloud-sun fourth-icon"></i></div>
+                <div class="temp">10°C</div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="day">Wed</div>
+                <div><i class="fa-solid fa-cloud-rain fifth-icon"></i></div>
+                <div class="temp">19°C</div>
+              </div>
+
+              <div class="col-sm-2">
+                  <div class="day">Thur</div>
+                  <div><i class="fa-solid fa-cloud-bolt sixth-icon"></i></i></div>
+                  <div class="temp">9°C</div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+    <div class="author">Created by  <a href="https://www.linkedin.com/in/munashe-sithole-453430176">Munashe Sithole</a>
+
+  </body>
+</html>

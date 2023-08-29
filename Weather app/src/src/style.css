@@ -1,0 +1,175 @@
+.container {
+  padding: 50px;
+  background: linear-gradient(
+    180.3deg,
+    rgb(221, 221, 221) 5.5%,
+    rgb(110, 136, 161) 90.2%
+  );
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: block;
+  border: 1px solid #65451f;
+  width: 600px;
+  border-radius: 4px;
+}
+
+body {
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  text-align: center;
+  color: #65451f;
+  position: relative;
+  left: -55px;
+  top: -13px;
+}
+
+.float-right {
+  background-color: #65451f;
+  border: #f4f2de;
+  border-radius: 100px;
+}
+
+.temp {
+  font-size: 16px;
+  text-align: center;
+}
+
+.maintemp {
+  font-size: 20px;
+  text-align: center;
+  color: #352f44;
+  position: relative;
+  left: -15px;
+}
+
+.day {
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 26px;
+  color: #352f44;
+  position: relative;
+  bottom: -50px;
+}
+
+.float-right {
+  text-align: right;
+}
+
+.first-icon {
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+.first-icon:hover {
+  color: wheat;
+  font-size: 20px;
+}
+
+.sec-icon {
+  font-size: 15px;
+  transition: all 100ms ease-in-out;
+  color: brown;
+  display: block;
+  text-align: center;
+}
+
+.sec-icon:hover {
+  color: wheat;
+  font-size: 20px;
+}
+
+.third-icon {
+  font-size: 15px;
+  color: gray;
+  text-align: center;
+  display: block;
+}
+
+.third-icon:hover {
+  color: wheat;
+  font-size: 20px;
+}
+
+.fourth-icon {
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+.fourth-icon:hover {
+  color: wheat;
+  font-size: 20px;
+}
+
+.fifth-icon {
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+.fifth-icon:hover {
+  color: wheat;
+  font-size: 20px;
+}
+
+.sixth-icon {
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+.meteorology {
+  text-align: right;
+  color: #f4f2de;
+  position: absolute;
+  right: -18px;
+  font-size: 16px;
+}
+
+.today {
+  text-align: left;
+  color: #f4f2de;
+  position: absolute;
+  left: -48px;
+  font-size: 16px;
+}
+
+.city {
+  color: #352f44;
+  text-align: left;
+  position: relative;
+  left: -24px;
+}
+
+.card {
+  color: #65451f;
+  position: relative;
+  bottom: -34px;
+}
+
+.author {
+  text-align: center;
+  color: #f4f2de;
+  font-weight: bolder;
+}
+
+.format {
+  border-radius: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+.search {
+  border-radius: 30px;
+}
